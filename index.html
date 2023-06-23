@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="body">
     <section class="container">
-        <img src="/Images/logo.png" alt="">
+        <p id="greeting">Good Afternoon, my name is</p>
+        <h1>Josh Pickard</h1>
     </section>
     <section class="footer">
-        <p>I'll create something here soon, probably.</p>
+        <p>I'll create something here soon, probably. For now, check out my <span> <a href="http://github.com/joshpickard">GitHub</a></span></p>
+        
     </section>
     
+
+
+
+
+    <script>
+        $(document).ready(function(){
+            console.log("Read!")
+            function getGreeting() {
+                const current = new Date();
+                const currentTime = current.getHours();
+
+                if(currentTime > 6 && currentTime < 12) {
+                    return "Good Morning"
+                } else if (currentTime >= 12 && currentTime < 18) {
+                    return "Good Afternoon"
+                } else if (currentTime >= 18 && currentTime < 21) {
+                    return "Good Evening"
+                } else {
+                    return "Hello"
+                }
+            }
+            const greeting = document.getElementById('greeting');
+            greeting.innerHTML = getGreeting() + ', my name is'
+            $(".container").hide()
+            $(".footer").hide()
+            $(".container").fadeIn("slow")
+            $(".footer").fadeIn("slow")
+        });
+
+
+
+    </script>
 </body>
 </html>
