@@ -1,59 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 
-:root {
-    --yellow: #FFF49C;
-    --black: #1D1C1A;
+* {
+    margin: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 body {
-    background-color: var(--black);
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0;
-    height: calc(100vh);
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1D1D1D;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-    align-content: space-between
-}
-
-.container h1 {
+h1 {
+    color: #FFF49C;
     font-family: 'Arimo', sans-serif;
-    margin: 0;
     font-size: 64px;
-    color: var(--yellow)
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.container p {
+h2 {
+    color: #FFF;
     font-family: 'Arimo', sans-serif;
     font-size: 20px;
-    margin: 0;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    color: #cdcdcd;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1vh;
+}
+
+.links {
+    margin-top: 3vh;
 }
 
 a {
-    color: #b5b5b5;
+    color: #FFF;
     font-family: 'Arimo', sans-serif;
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 14px;
 }
 
 a:hover {
-    color: var(--yellow)
+    text-decoration: underline;
+}
+
+p {
+    color: #FFF;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 19.684px */
+    max-width: 741px;
+    margin-top: 1vh;
+    padding: 0;
+}
+
+b {
+    margin: 0;
+}
+
+.icon {
+    width: 13px;
+    margin: 0;
+}
+
+.portrait-container {
+    display: flex;
+    align-items:center;
+    background-color: #292828;
+    border-radius: 19px;
+    width: 303px;
+    height: 304px;
+    flex-shrink: 0;
+}
+
+span {
+    font-family: 'Arimo', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
-@media only screen and (max-width: 600px) {
-    .container h1 {
-      font-size: 32px;
+@media only screen and (max-width: 1000px) {
+    .portrait-container {
+        display: none;
     }
-  }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
