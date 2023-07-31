@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1D1D1D;
+    background-color: #121212;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    color: #FFF49C;
+    color: #0fff95;
     font-family: 'Arimo', sans-serif;
     font-size: 64px;
     font-style: normal;
@@ -55,6 +55,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: #0fff95;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
 }
 
 p {
@@ -64,7 +67,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 19.684px */
-    max-width: 741px;
+    max-width: 730px;
     margin-top: 1vh;
     padding: 0;
 }
@@ -81,7 +84,7 @@ b {
 .portrait-container {
     display: flex;
     align-items:center;
-    background-color: #292828;
+    background-color: #1a1919;
     border-radius: 19px;
     width: 303px;
     height: 304px;
