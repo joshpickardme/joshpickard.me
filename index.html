@@ -8,20 +8,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body onload="setIntro()">
-    <div>
-        <h2 id="intro"></h2>
-        <h1>Josh Pickard</h1>
-        <p>I’m an <b>apprentice software developer</b> working in <img class="icon" src="https://i.gyazo.com/aac0dfefc080856931658ea9c760534e.png" alt=""> <b>Leeds, United Kingdom</b>. I have a developed interest in web applications and web technologies such as <img class="icon" src="https://i.gyazo.com/b411f4336ff52375bd1cb6831bd28630.png" alt=""> <b>vue.js</b> and <img class="icon" src="https://i.gyazo.com/22808bae77c66bd1b33e298ea2f4320e.png" alt=""> <b>react.js</b>. I’ll add more to this site soon! </p>
-        <div class="links">
-            <a target="_blank" href="https://www.github.com/joshpickardme">GitHub</a>
-            <a target="_blank" href="https://www.twitter.com/joshpickardme">Twitter</a>
-            <a target="_blank" href="https://www.linkedin.com/in/joshpickardme">LinkedIn</a>
+    <header>
+        <h3>JoshPickard<span class="h3me">.me</span></h3>
+        <nav>
+            <a class="nava" href="">ABOUT</a>
+            <a class="nava" href="">WORK</a>
+            <a class="nava" href="">CONTACT</a>
+        </nav>
+    </header>
+    <div class="ultbody">
+        <div>
+            <h2 id="intro"></h2>
+            <h1>Josh Pickard</h1>
+            <p>I’m an <b>apprentice software developer</b> working in <img class="icon" src="https://i.gyazo.com/aac0dfefc080856931658ea9c760534e.png" alt=""> <b>Leeds, United Kingdom</b>. I have a developed interest in web applications and web technologies such as <img class="icon" src="https://i.gyazo.com/b411f4336ff52375bd1cb6831bd28630.png" alt=""> <b>vue.js</b> and <img class="icon" src="https://i.gyazo.com/22808bae77c66bd1b33e298ea2f4320e.png" alt=""> <b>react.js</b>. I’ll add more to this site soon! </p>
+            <div class="links">
+                <p class="linksp">// Quick Links</p>
+                <a class="quicklink" target="_blank" href="https://www.github.com/joshpickardme">GitHub</a>
+                <a class="quicklink" target="_blank" href="https://www.twitter.com/joshpickardme">Twitter</a>
+                <a class="quicklink" target="_blank" href="https://www.linkedin.com/in/joshpickardme">LinkedIn</a>
+            </div>
         </div>
+        <div class="portrait-container"></div>
     </div>
 
-    <div class="portrait-container">
-        <span class="portraitPlaceholder">Once I get a <b>good</b> photo of myself I’ll put it here</span>
-    </div>
 </body>
 
 <script>
@@ -32,13 +41,13 @@
         console.log(currentTime) 
 
         if(currentTime > 6 && currentTime < 12) {
-            text.innerHTML = "Good Morning, my name is"
+            text.innerHTML = "Good Morning, I'm"
         } else if (currentTime >= 12 && currentTime < 18) {
-            text.innerHTML =  "Good Afternoon, my name is"
+            text.innerHTML =  "Good Afternoon, I'm"
         } else if (currentTime >= 18 && currentTime < 23) {
-            text.innerHTML =  "Good Evening, my name is"
+            text.innerHTML =  "Good Evening, I'm"
         } else {
-            text.innerHTML =  "Hello, my name is"
+            text.innerHTML =  "Hello, I'm"
         }
     }
 </script>

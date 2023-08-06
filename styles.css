@@ -1,20 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 
-* {
+header {
     margin: 0;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h3me {
+    color: #0FFF95;
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nava {
+    color: #FFF;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 2vw;
+    text-decoration: none;
+}
+
+.nava:hover {
+    text-decoration: underline;
 }
 
 body {
     background-color: #121212;
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
 
-body {
+.ultbody {
+    background-color: #121212;
+}
+
+.ultbody {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    min-height: 81vh;
 }
 
 h1 {
@@ -24,6 +66,10 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -34,30 +80,28 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 1vh;
+    margin-bottom: 0.1vh;
+    padding: 0;
 }
 
 .links {
-    margin-top: 3vh;
+    margin-top: 7vh;
 }
 
-a {
-    color: #FFF;
+.quicklink {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #0fff95;
     font-family: 'Arimo', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 20px;
+    border-radius: 2px;
     text-decoration: none;
+    color: #121212;
+    font-weight: 700;
     margin: 0;
-    padding-right: 14px;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: #0fff95;
-    text-decoration-line: underline;
-    text-decoration-thickness: 4px;
+    margin-right: 9px;
 }
 
 p {
@@ -72,6 +116,18 @@ p {
     padding: 0;
 }
 
+.linksp {
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 12px;
+}
+
 b {
     margin: 0;
 }
@@ -81,11 +137,17 @@ b {
     margin: 0;
 }
 
+.link-flex-box {
+    display: flex;
+    margin: 0;
+}
+
 .portrait-container {
     display: flex;
     align-items:center;
-    background-color: #1a1919;
-    border-radius: 19px;
+    border-radius: 100%;
+    border: 2px solid white;
+    border-color: white;
     width: 303px;
     height: 304px;
     flex-shrink: 0;
@@ -111,6 +173,10 @@ strong {
         display: none;
     }
 
+    .nava {
+        display: none;
+    }
+
     h1 {
         font-size: 42px;
     }
@@ -121,6 +187,26 @@ strong {
 
     a {
         font-size: 14px;
+    }
+
+    .linksp {
+        font-size: 18px;
+    }
+
+    .quicklink {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        padding: 8px;
+        background-color: #0fff95;
+        font-family: 'Arimo', sans-serif;
+        font-size: 15px;
+        border-radius: 2px;
+        text-decoration: none;
+        color: #121212;
+        font-weight: 700;
+        margin: 0;
+        margin-right: 9px;
     }
 }
 
