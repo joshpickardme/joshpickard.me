@@ -39,7 +39,9 @@ h3 {
 }
 
 .nava:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid currentColor; /* Or whatever color you want */
+    transition: ease all 0.05s;
+    text-decoration: none;
 }
 
 body {
@@ -101,7 +103,15 @@ h2 {
     color: #121212;
     font-weight: 700;
     margin: 0;
+    transition: ease all 0.2s;
     margin-right: 9px;
+}
+
+.quicklink:hover {
+    transition: ease all 0.2s;
+    background-color: transparent;
+    color: white;
+    outline: 1px solid #0fff95;
 }
 
 p {
