@@ -152,6 +152,8 @@ b {
     margin: 0;
 }
 
+
+
 .portrait-container {
     display: flex;
     align-items:center;
@@ -159,6 +161,7 @@ b {
     border: 2px solid white;
     border-color: white;
     width: 303px;
+    margin-right: 2vw;
     height: 304px;
     flex-shrink: 0;
 }
