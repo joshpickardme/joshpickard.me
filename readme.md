@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Joshpickard.me is a placeholder website/domain with the intention of eventually becoming something more substantial when I can think of some valid use-cases.
+Joshpickard.me is a simple website placeholder whilst I create a cool personal portfolio.
 
 
 <!-- CONTACT -->
