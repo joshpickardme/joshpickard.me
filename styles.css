@@ -8,6 +8,16 @@ header {
     align-items: center;
 }
 
+.title {
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
 h3 {
     color: #FFF;
     font-family: Arimo;
