@@ -56,19 +56,44 @@ h3 {
 
 body {
     background-color: #121212;
-    margin-left: 7vw;
-    margin-right: 7vw;
+    overflow: hidden;
 }
 
 .ultbody {
     background-color: #121212;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    color: #0fff95;
+    transition: all 0.2s linear;
+}
+
 .ultbody {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    min-height: 81vh;
+    min-height: 100vh;
+}
+
+.ultdiv {
+    text-align: center;
+}
+
+.linksp {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
