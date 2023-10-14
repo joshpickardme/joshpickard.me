@@ -1,66 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 
-header {
+
+* {
     margin: 0;
-    margin-top: 4vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.title {
-    color: #FFF;
-    font-family: Arimo;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-}
-
-h3 {
-    color: #FFF;
-    font-family: Arimo;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.h3me {
-    color: #0FFF95;
-    font-family: Arimo;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.nava {
-    color: #FFF;
-    text-align: center;
-    font-family: Arimo;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-right: 2vw;
-    text-decoration: none;
-}
-
-.nava:hover {
-    border-bottom: 3px solid currentColor; /* Or whatever color you want */
-    transition: ease all 0.05s;
-    text-decoration: none;
-}
 
 body {
-    background-color: #121212;
+    background-color: #1B2438;
     overflow: hidden;
 }
 
 .ultbody {
-    background-color: #121212;
+    background-color: #1B2438;
 }
 
 a {
@@ -71,7 +23,7 @@ a {
 }
 
 a:hover {
-    color: #0fff95;
+    color: #A9C4ED;
     transition: all 0.2s linear;
 }
 
@@ -86,18 +38,9 @@ a:hover {
     text-align: center;
 }
 
-.linksp {
-    text-align: center;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 h1 {
-    color: #0fff95;
+    color: #A9C4ED;
     font-family: 'Arimo', sans-serif;
     font-size: 64px;
     font-style: normal;
@@ -121,33 +64,9 @@ h2 {
     padding: 0;
 }
 
-.links {
-    margin-top: 7vh;
-}
 
-.quicklink {
-    display: inline-flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    background-color: #0fff95;
-    font-family: 'Arimo', sans-serif;
-    font-size: 20px;
-    border-radius: 2px;
-    text-decoration: none;
-    color: #121212;
-    font-weight: 700;
-    margin: 0;
-    transition: ease all 0.2s;
-    margin-right: 9px;
-}
 
-.quicklink:hover {
-    transition: ease all 0.2s;
-    background-color: transparent;
-    color: white;
-    outline: 1px solid #0fff95;
-}
+
 
 p {
     color: #FFF;
@@ -161,17 +80,6 @@ p {
     padding: 0;
 }
 
-.linksp {
-    color: #FFF;
-    font-family: Arimo;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 12px;
-}
 
 b {
     margin: 0;
@@ -189,27 +97,6 @@ b {
 
 
 
-.portrait-container {
-    display: flex;
-    align-items:center;
-    border-radius: 100%;
-    border: 2px solid white;
-    border-color: white;
-    width: 303px;
-    margin-right: 2vw;
-    height: 304px;
-    flex-shrink: 0;
-}
-
-span {
-    font-family: 'Arimo', sans-serif;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-}
 
 strong {
     margin: 0;
