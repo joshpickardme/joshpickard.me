@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --primary-color: white;
+  --secondary-color: #A9C4ED;
+  --background-color: #1B2438;
+}
+
+body {
+  color: var(--foreground-rgb-primary);
+  background-color: var(--background-color);
+}
+
+* {
+  font-family: 'Arimo', sans-serif;
+}
+
+h2 {
+  color: 
+}
